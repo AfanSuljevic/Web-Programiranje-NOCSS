@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Svijet Automobila</title>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif;">
+
+    <header>
+        <nav style="background-color: #333; padding: 10px; text-align: center;">
+            <a href="index.html" title="Početna stranica" accesskey="1" style="color: white; text-decoration: none; padding: 10px 20px; margin: 0 10px; ; background-color: #28a745;">Početna</a>
+            <a href="galerija.html" title="Galerija automobila" accesskey="2" style="color: white; text-decoration: none; padding: 10px 20px; margin: 0 10px;  background-color: #28a745;">Galerija</a>
+            <a href="onama.html" title="Informacije o nama" accesskey="3" style="color: white; text-decoration: none; padding: 10px 20px; margin: 0 10px; background-color: #28a745;">O nama</a>
+            <a href="kontakt.html" title="Informacije o stranici" accesskey="3" style="color: white; text-decoration: none; padding: 10px 20px; margin: 0 10px; background-color: #28a745;">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="contact-section" style="text-align: center; padding: 40px 20px;">
+        <h2 id="contact-title" lang="hr">Kontaktirajte me!</h2>
+        <div id="contact-form-container" style="max-width: 600px; margin: 0 auto;">
+            <h3 id="form-title">Pošaljite mi poruku</h3>
+            <form action="#" method="POST" enctype="multipart/form-data" id="contact-form">
+                
+                <div style="margin-bottom: 20px;">
+                    <label for="name" style="display: block; text-align: left; margin-bottom: 5px;">Ime i Prezime:</label>
+                    <input type="text" name="name" id="name" placeholder="Ime i Prezime" required style="width: 100%; padding: 10px; border: 1px solid #ddd; box-sizing: border-box;">
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label for="email" style="display: block; text-align: left; margin-bottom: 5px;">E-mail Adresa:</label>
+                    <input type="email" name="email" id="email" placeholder="Vaša E-mail Adresa" required style="width: 100%; padding: 10px; border: 1px solid #ddd; box-sizing: border-box;">
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label for="phone" style="display: block; text-align: left; margin-bottom: 5px;">Broj Telefona:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Vaš Broj Telefona" required style="width: 100%; padding: 10px; border: 1px solid #ddd; box-sizing: border-box;">
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label for="message" style="display: block; text-align: left; margin-bottom: 5px;">Vaša Poruka:</label>
+                    <textarea name="message" id="message" placeholder="Vaša Poruka" required style="width: 100%; padding: 10px; border: 1px solid #ddd; height: 150px; box-sizing: border-box; resize:none"></textarea>
+                </div>
+                
+                <button type="submit" name="submit" style="width: 100%; padding: 12px; background-color: #28a745; color: white; border: none; cursor: pointer; box-sizing: border-box;">Pošaljite Poruku</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="netcar-section" style="text-align: center; padding: 40px 20px; background-color: #73bb84be;">
+        <h2 id="netcar-title" lang="hr">Pogledajte Još Automobila na NetCarGaleriji</h2>
+        <div id="netcar-info">
+            <p>Za još više informacija i galerija automobila, posjetite 
+                <a href="https://www.netcarshow.com" target="_blank" title="NetCarGalerija">NetCarGalerija</a>.
+            </p>
+        </div>
+    </section>
+
+    <footer id="footer-section" style="text-align: center; padding: 10px; background-color: #333; color: white;">
+        <p>&copy; Web-Programiranje projekat.</p>
+    </footer>
+
+</body>
+</html>
